@@ -1,0 +1,19 @@
+    1  git clone git@github.com:Inspalamos-SMX2B-2025-2026/01-git-basics-aleixmoscoso17.git
+    2  cd 01-git-basics-aleixmoscoso17
+    5  git add README.md exe1.html
+    6  git commit -m "Nou exe1"
+    7  git push
+   10  git add exe2.html
+   11  git commit -m "Nou exe2"
+   12  git push
+   16  git add exe1.html exe2.html README.md
+   17  git commit -m "Using Bootstrap"
+   18  git push
+   19  git checkout -b web
+   20  git push -u origin web
+   21  git checkout main
+   22  git rm exe1.html exe2.html
+   23  git commit -m "Remove html files from main branch"
+   24  git push
+   25  git checkout main
+   26  history | grep git > git.log
